@@ -13,9 +13,18 @@ body {
   background-color: black;
   opacity: 50%;
 }
-/* .nav-item{
-    color: white!important;
-}  */
+.service-bg{
+  background-image: url(images/Services\ \(2\).png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.bg-team{
+  background-image: url(images/Our\ Team\ \(2\).png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
 .banner-text {
   margin-top: 20px;
   padding-top: 30px;
@@ -277,7 +286,12 @@ body {
   margin-top: 60px;
   margin-right: 88px;
 }
-
+.bg-circle{
+  background-image: url(images/Frame\ 92.png);
+  background-repeat: no-repeat;
+  /* background-position: center center;*/
+  background-size: cover; 
+}
 .lg-text {
   position: relative;
   font-size: 92px;
@@ -318,9 +332,6 @@ body {
   font-size: 48px;
   font-weight: 700;
   margin-top: 13px;
-  /* line-height: 58px;
-letter-spacing: 0em; */
-  /* text-align: left; */
   color: rgba(216, 176, 141, 1);
 }
 .circle-text {
@@ -328,9 +339,7 @@ letter-spacing: 0em; */
   font-size: 20px;
   font-weight: 700;
   margin-top: -23px;
-  /* line-height: 24px;
-letter-spacing: 0em; */
-  /* text-align: left; */
+  
   color: rgba(216, 176, 141, 1);
 }
 .circlee {
@@ -436,7 +445,7 @@ letter-spacing: 0em; */
     width: 22rem !important;
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1400px) {
   .sm-text-client {
     position: absolute;
     top: 65px;
@@ -446,34 +455,124 @@ letter-spacing: 0em; */
     top: 62px;
     right: 90px;
   }
+  .sm-text-team {
+    top: 68px;
+    right: 410px;
+  }
+  .sm-text-follow {
+    top: 67px;
+    right: 390px;
+  }
+  .sm-text-services {
+    top: 162px;
+    left: 231px;
+  }
+  .sm-text-contact {
+    top: 160px;
+    left: 318px;
+  }
+  .sm-text-blog {
+    top: 63px;
+    left: 260px;
+  }
+  .sm-text-work {
+    top: 114px;
+    left: 325px;
+  }
 }
 @media screen and (min-width: 992px) and (max-width: 1200px) {
   .sm-text-client {
     position: absolute;
+    top: 65px;
+    right: 178px;
+    
+  }
+  .sm-text-work {
+    top: 114px;
+    left: 325px;
+  }
+  .sm-text-contact {
+    top: 160px;
+    left: 318px;
+  }
+  .lg-text-about{
+    font-size: 84px!important;
+  }
+  .sm-text-about {
+    top: 62px;
+    right: 20px;
+  }
+  .sm-text-team {
     top: 68px;
-    right: 176px;
+    right: 410px;
+  }
+  .sm-text-follow {
+    top: 67px;
+    right: 213px;
+  }
+  .sm-text-services {
+    top: 162px;
+    left: 231px;
+  }
+  .sm-text-blog {
+    top: 63px;
+    left: 260px;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+
+  .sm-text-client {
+    position: absolute;
+    top: 65px;
+    right: 271px;
+    
+  }
+
+  .sm-text-contact {
+    top: 160px;
+    left: 318px;
   }
   .sm-text-about {
     top: 60px;
-    right: 18px;
+    right: 64px;
   }
   .lg-text-about {
     font-size: 84px;
   }
   .sm-text-follow {
-    top: 62px;
-    right: 211px;
+    top: 66px;
+    right: 301px;
   }
   .sm-text-services {
-    top: 62px;
-    right: 264px;
+    top: 160px;
+    left: 231px;
   }
   .sm-text-team {
     top: 65px;
-    right: 233px;
+    right: 323px;
+  }
+  .sm-text-blog {
+    top: 63px;
+    left: 260px;
+  }
+  .sm-text-work {
+    top: 114px;
+    left: 325px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
+  .sm-text-work {
+    top: 114px;
+    left: 325px;
+  }
+  .sm-text-contact {
+    top: 160px;
+    left: 318px;
+  }
+  .sm-text-blog {
+    top: 63px;
+    left: 260px;
+  }
   .sm-text-client {
     position: absolute;
     top: 66px;
@@ -491,8 +590,8 @@ letter-spacing: 0em; */
     right: 91px;
   }
   .sm-text-services {
-    top: 65px;
-    right: 144px;
+    left: 231px;
+    top: 161px;
   }
   .sm-text-team {
     top: 66px;
@@ -500,6 +599,23 @@ letter-spacing: 0em; */
   }
 }
 @media screen and (min-width: 576px) and (max-width: 767px) {
+  .sm-text-work {
+    top: 114px;
+    right: 9px;
+    font-size: 35px;
+  }
+  .sm-text-blog {
+    top: 63px;
+    left: 260px;
+  }
+  .sm-text-contact {
+    top: 160px;
+    right: 41px;
+    font-size: 38px;
+  }
+  .lg-text-contact {
+    font-size: 78px;
+  }
   .sm-text-client {
     position: absolute;
     top: 58px;
@@ -516,8 +632,8 @@ letter-spacing: 0em; */
     right: 1px;
   }
   .sm-text-services {
-    top: 65px;
-    right: 54px;
+    top: 162px;
+    right: 107px;
   }
   .sm-text-team {
     top: 66px;
@@ -537,90 +653,162 @@ letter-spacing: 0em; */
   }
 }
 @media screen and (min-width: 525px) and (max-width: 576px) {
-  .sm-text-client {
-    position: absolute;
-    top: 61px;
-    right: 10px;
-    font-size: 33px;
+  .sm-text-work {
+    top: 100px;
+    right: 88px;
+    padding-bottom: 0px;
   }
-  .lg-text-client {
-    font-size: 78px;
+  .lg-text-work {
+    padding-top: 0;
+    padding-bottom: 0px;
+    margin-bottom: -43px;
   }
-  .lg-text-services {
-    font-size: 60px;
+  .sm-text-blog {
+    top: 57px;
+    left: 132px;
   }
-  .sm-text-about {
-    right: 36px;
-  }
-  .sm-text-follow {
-    top: 50px;
-    right: 73px;
+  .sm-text {
     font-size: 35px;
   }
-  .lg-text-follow {
+  .lg-text {
     font-size: 60px;
   }
-  .lg-text-team {
-    font-size: 60px;
+  .sm-text-contact {
+    top: 154px;
+    right: 163px;
   }
-}
-
-@media screen and (min-width: 425px) and (max-width: 525px) {
-  .sm-text-client {
-    position: absolute;
-    top: 55px;
-    right: 13px;
-    font-size: 25px;
-  }
-  .lg-text-client {
-    font-size: 60px;
-  }
-  .sm-text-follow {
+ 
+  .sm-text-about{
     top: 50px;
-    right: 73px;
-    font-size: 35px;
+    right: 121px
   }
-  .lg-text-follow {
-    font-size: 60px;
+  .sm-text-services{
+    top: 150px;
+    left: 103px;
   }
-  .lg-text-services {
-    font-size: 60px;
+  .sm-text-team{
+    top: 49px;
+    right: 119px;
   }
-  .lg-text-team {
-    font-size: 60px;
+  .sm-text-follow{
+    top: 51px;
+    right: 105px;
   }
-}
-
-@media screen and (min-width: 310px) and (max-width: 425px) {
   .sm-text-client {
-    position: absolute;
-    top: 47px;
-    right: 25px;
-    font-size: 17px;
+    top: 43px;
+    right: 146px;
+    font-size: 23px;
   }
   .lg-text-client {
     font-size: 40px;
   }
-  .lg-text-services {
-    font-size: 60px;
+}
+
+@media screen and (min-width: 425px) and (max-width: 525px) {
+  .sm-text-work {
+    top: 100px;
+    right: 74px;
+    padding-bottom: 0px;
   }
-  .lg-text-team {
-    font-size: 60px;
+  .lg-text-work {
+    padding-top: 0;
+    padding-bottom: 0px;
+    margin-bottom: -43px;
   }
-  .sm-text-about {
-    top: 52px;
-    right: 50px;
-    font-size: 31px;
+  .sm-text-blog {
+    top: 47px;
+    left: 116px;
   }
-  .lg-text-about {
-    font-size: 60px;
-  }
-  .sm-text-follow {
-    top: 50px;
-    right: 73px;
+  .sm-text {
     font-size: 35px;
   }
-  .lg-text-follow {
+  .lg-text {
     font-size: 60px;
+  }
+  .sm-text-contact {
+    top: 154px;
+    right: 163px;
+  }
+  .sm-text-about{
+    top: 46px;
+    right: 86px;
+  }
+  .sm-text-services{
+    top: 150px;
+    left: 103px;
+  }
+  .sm-text-team{
+    top: 49px;
+    right: 81px;
+  }
+  .sm-text-follow{
+    top: 49px;
+    right: 70px;
+  }
+  .sm-text-client {
+    top: 47px;
+    right: 100px;
+    font-size: 23px;
+  }
+  .lg-text-client {
+    font-size: 40px;
+  }
+ 
+}
+
+@media screen and (min-width: 300px) and (max-width: 425px) {
+  .sm-text-work {
+    top: 100px;
+    right: 74px;
+    padding-bottom: 0px;
+  }
+  .lg-text-work {
+    padding-top: 0;
+    padding-bottom: 0px;
+    margin-bottom: -43px;
+  }
+  .sm-text-blog {
+    top: 47px;
+    left: 116px;
+  }
+  .sm-text {
+    font-size: 27px;
+  }
+  .lg-text {
+    font-size: 50px;
+  }
+  .sm-text-contact {
+    
+    top: 90px;
+    right: 48px;
+  }
+  .lg-text-contact {
+    padding-top: 0px!important;
+    font-size: 40px;
+  }
+  .sm-text-about{
+    top: 46px;
+    right: 50px;
+  }
+  .sm-text-services{
+    top: 144px;
+    left: 103px;
+  }
+  .sm-text-team{
+    top: 49px;
+    right: 50px;
+  }
+  .sm-text-follow{
+    top: 49px;
+    right: 50px;
+  }
+  .sm-text-client {
+    
+    top: 47px;
+    right: 35px;
+    font-size: 23px;
+  }
+  .lg-text-client {
+    font-size: 40px;
   }
 }

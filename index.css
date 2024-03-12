@@ -448,8 +448,9 @@ body {
 @media screen and (min-width: 1400px) {
   .sm-text-client {
     position: absolute;
-    top: 65px;
-    right: 358px;
+    top: 66px;
+    /* right: 714px; */
+    left: 328px;
   }
   .sm-text-about {
     top: 62px;
@@ -479,12 +480,30 @@ body {
     top: 114px;
     left: 325px;
   }
+  .about{
+    padding-top: 63px;
+  }
+  .p-about{
+    margin-right: 124px;
+  }
+  .p-about2{
+    top: 64px;
+    right: 30px;
+  }
+ 
+  .text{
+     margin-top: 115px!important;
+    margin-left: 29px;
+    margin-right: 66px;
+  }
+
+ 
 }
 @media screen and (min-width: 992px) and (max-width: 1200px) {
   .sm-text-client {
     position: absolute;
     top: 65px;
-    right: 178px;
+    right: 355px;
     
   }
   .sm-text-work {
@@ -518,14 +537,35 @@ body {
     top: 63px;
     left: 260px;
   }
+ 
+  .p-about2{
+    top: 64px;
+    right: 30px;
+  }
+  .text{
+    margin-top: 80px!important;
+   margin-left: 29px;
+   margin-right: 66px;
+   margin-bottom: 80px!important;
+ }
 }
 @media screen and (min-width: 1200px) and (max-width: 1400px) {
-
+  .p-about{
+    margin-right: 124px;
+  }
+  .p-about2{
+    top: 64px;
+    right: 30px;
+  }
+  .text{
+    margin-top: 115px!important;
+   margin-left: 29px;
+   margin-right: 66px;
+ }
   .sm-text-client {
     position: absolute;
     top: 65px;
-    right: 271px;
-    
+    right: 536px;
   }
 
   .sm-text-contact {
@@ -561,6 +601,17 @@ body {
   }
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
+  
+  .p-about2{
+    top: 64px;
+    right: 30px;
+  }
+  .text{
+    margin-top: 80px!important;
+   margin-left: 29px;
+   margin-right: 66px;
+   margin-bottom: 80px!important;
+ }
   .sm-text-work {
     top: 114px;
     left: 325px;
@@ -576,7 +627,8 @@ body {
   .sm-text-client {
     position: absolute;
     top: 66px;
-    right: 57px;
+    right: 114px;
+    margin-bottom: 30px!important;
   }
   .sm-text-about {
     top: 60px;
@@ -599,6 +651,16 @@ body {
   }
 }
 @media screen and (min-width: 576px) and (max-width: 767px) {
+  .p-about2{
+    top: 64px;
+    right: 30px;
+  }
+  .text{
+    margin-top: 80px!important;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 80px!important;
+ }
   .sm-text-work {
     top: 114px;
     right: 9px;
@@ -619,7 +681,7 @@ body {
   .sm-text-client {
     position: absolute;
     top: 58px;
-    right: 13px;
+    right: 26px;
     font-size: 33px;
   }
   .lg-text-client {
@@ -653,6 +715,12 @@ body {
   }
 }
 @media screen and (min-width: 525px) and (max-width: 576px) {
+  .text{
+    margin-top: 60px!important;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 80px!important;
+ }
   .sm-text-work {
     top: 100px;
     right: 88px;
@@ -701,10 +769,18 @@ body {
   }
   .lg-text-client {
     font-size: 40px;
+    text-align: center!important;
+
   }
 }
 
 @media screen and (min-width: 425px) and (max-width: 525px) {
+  .text{
+    margin-top: 60px!important;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 80px!important;
+ }
   .sm-text-work {
     top: 100px;
     right: 74px;
@@ -752,6 +828,8 @@ body {
   }
   .lg-text-client {
     font-size: 40px;
+    text-align: center!important;
+
   }
  
 }
@@ -785,6 +863,7 @@ body {
   .lg-text-contact {
     padding-top: 0px!important;
     font-size: 40px;
+
   }
   .sm-text-about{
     top: 46px;
@@ -810,5 +889,7 @@ body {
   }
   .lg-text-client {
     font-size: 40px;
+    text-align: center!important;
+
   }
 }
